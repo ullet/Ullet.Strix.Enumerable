@@ -46,6 +46,10 @@
   <ItemGroup>
     <Compile Include="Enumerable\DecrementingRangeEnumerable.cs" />
     <Compile Include="Enumerable\EnumerableExtensions.cs" />
+    <Compile Include="Enumerable\UnsignedDecrementingRangeEnumerable.cs" />
+    <Compile Include="Enumerable\UnsignedIncrementingRangeEnumerable.cs" />
+    <Compile Include="Enumerable\UnsignedRangeEnumerable.cs" />
+    <Compile Include="Enumerable\UnsignedRangeEnumerator.cs" />
     <Compile Include="Enumerable\IncrementingRangeEnumerable.cs" />
     <Compile Include="Enumerable\ItemWithIndex.cs" />
     <Compile Include="Enumerable\Range.cs" />
