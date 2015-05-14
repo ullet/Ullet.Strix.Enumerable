@@ -119,7 +119,7 @@ namespace Ullet.PD.Tests.Unit.Enumerable
     {
       IEnumerator enumerator = new RangeEnumerator(6, -3, -3);
       Assert.Throws<InvalidOperationException>(
-        Subject.Getter(() => enumerator.Current));
+        () => ((Func<object>)(() => enumerator.Current))());
     }
   }
 }
