@@ -263,10 +263,8 @@ namespace Ullet.PD.Enumerable
       this IEnumerable<T> source,
       Func<T, bool> predicate = null)
     {
-      ulong count = 0;
-      var filtered = predicate == null ? source : source.Where(predicate);
-      filtered.Each((T x) => count++);
-      return count;
+      return (predicate == null ? source : source.Where(predicate))
+        .Aggregate(0ul, (c, x) => c + 1);
     }
 
     /// <summary>
