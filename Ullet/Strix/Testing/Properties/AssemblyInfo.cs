@@ -12,7 +12,10 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("Ullet.Strix")]
-[assembly: AssemblyCopyright("Released to the Public Domain")]
+[assembly: AssemblyCopyright(
+  "Written by Trevor Barnett, <mr.ullet>, 2015. " +
+  "Released to the Public Domain. " +
+  "See http://unlicense.org/")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

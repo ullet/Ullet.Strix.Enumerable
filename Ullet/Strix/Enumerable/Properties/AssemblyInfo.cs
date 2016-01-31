@@ -1,5 +1,5 @@
 ﻿/*
- * Written by Trevor Barnett, <mr.ullet@gmail.com>, 2015
+ * Written by Trevor Barnett, <mr.ullet@gmail.com>, 2015, 2016
  * Released to the Public Domain.  See http://unlicense.org/ or the
  * UNLICENSE file accompanying this source code.
  */
@@ -12,7 +12,10 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("Ullet.Strix")]
-[assembly: AssemblyCopyright("Released to the Public Domain")]
+[assembly: AssemblyCopyright(
+  "Written by Trevor Barnett, <mr.ullet>, 2015, 2016. " +
+  "Released to the Public Domain. " +
+  "See http://unlicense.org/")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
