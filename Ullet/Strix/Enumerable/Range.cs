@@ -1,5 +1,5 @@
 ﻿/*
- * Written by Trevor Barnett, <mr.ullet@gmail.com>, 2015
+ * Written by Trevor Barnett, <mr.ullet@gmail.com>, 2015, 2016
  * Released to the Public Domain.  See http://unlicense.org/ or the
  * UNLICENSE file accompanying this source code.
  */
@@ -164,8 +164,7 @@ namespace Ullet.Strix.Enumerable
     /// </remarks>
     public static RangeEnumerable To(this int start, int end)
     {
-      var diff = end - start;
-      var step = diff == 0 ? 1 : diff/Math.Abs(diff);
+      var step = end < start ? -1 : 1;
       return new RangeEnumerable(start, end, step);
     }
 
